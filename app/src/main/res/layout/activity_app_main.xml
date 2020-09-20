@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AppMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </FrameLayout>
+    </LinearLayout>
+
+       <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#F2F2F2"
+        android:orientation="horizontal">
+
+        <RadioButton
+            style="@style/TabMenuItem"
+            android:drawableTop="@drawable/selector_nav_course"
+            android:text="课程" />
+
+        <RadioButton
+            style="@style/TabMenuItem"
+            android:drawableTop="@drawable/selector_nav_execise"
+            android:text="习题" />
+
+        <RadioButton
+            style="@style/TabMenuItem"
+            android:drawableTop="@drawable/selector_nav_message"
+            android:text="咨询" />
+
+        <RadioButton
+            style="@style/TabMenuItem"
+            android:drawableTop="@drawable/selector_nav_my"
+            android:text="我" />
+
+    </RadioGroup>
+</LinearLayout>
